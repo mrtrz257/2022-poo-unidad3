@@ -9,8 +9,8 @@ from ManejadorContratos import ManejadorContratos
 
 def test():
     equipo1 = Equipo("Boca Juniors", "Buenos Aires")
-    jugador1 = Jugador("Juan Ramirez", "25000256", "Moreno", "Argentina", "25/05/1993")
-    jugador2 = Jugador("Guillermo Fernandez", "23340266", "Granadero Baigorria", "Argentina", "11/10/1991")
+    jugador1 = Jugador("Juan Ramirez", "25000256", "Buenos Aires", "Argentina", "25/05/1993")
+    jugador2 = Jugador("Guillermo Fernandez", "23340266", "Santa Fe", "Argentina", "11/10/1991")
     equipo1.ContratarJugador("30/07/2021", "31/12/2024", 5500000, jugador1)
     equipo1.ContratarJugador("30/01/2021", "31/12/2024", 6500000, jugador2)
     equipo1.mostrarContratos()
@@ -41,6 +41,7 @@ def archivoJugadores(listaJugadores):
 
 if __name__ == '__main__':
     test()
+    print("--------------------------------------")
     arregloEquipos = ManejadorEquipos()
     archivoEquipos(arregloEquipos)
     print(arregloEquipos.mostrarEquipos())
