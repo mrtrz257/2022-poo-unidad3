@@ -1,0 +1,55 @@
+{"__class__":Manejador",
+	"Personal":[{
+		"__class__":"PersonalDeApoyo",
+		"__atributos__":"{
+			"CUIL":"21-32001067-6",
+			"apellido":"Garcia",
+			"nombre":"Nicolas",
+			"antiguedad":"4",
+			"sueldoBasico":"55000",
+			"categoria":"15"
+		}
+	},
+	{
+		"__class__":"Docente",
+		"__atributos__":{
+			"CUIL":"25-15564387-7",
+			"apellido":"Fernandez",
+			"nombre":"Raul",
+			"antiguedad":"10",
+			"sueldoBasico":"70000",
+			"carrera":"Informatica",
+			"cargo":"Exclusivo",
+			"catedra":"Matematica Basica"
+		}
+	}
+	{
+		"__class__":"Investigador",
+		"__atributos__":{
+			"CUIL":"33-20078569-8",
+			"apellido":"Rodriguez",
+			"nombre":"Manuel",
+			"antiguedad":"2",
+			"sueldoBasico":"65000",
+			"areaInvestigacion":"Inteligencia Artificial",
+			"tipoInvestigacion":"Explicativa"
+		}
+	}
+	{
+		"__class__":"DocenteInvestigador",
+		"__atributos__":{
+			"CUIL":"36-12366753-9",
+			"apellido":"Gonzalez",
+			"nombre":"Graciela",
+			"antiguedad":"12",
+			"sueldoBasico":"80000",
+			"areaInvestigacion":"Inteligencia Artificial",
+			"tipoInvestigacion":"Investigacion Aplicada",
+			"carrera":"Informatica",
+			"cargo":"Simple",
+			"catedra":"Matematica Discreta",
+			"categoria":"III",
+			"importeExtra":"25000"
+		}
+	}]
+}
