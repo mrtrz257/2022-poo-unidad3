@@ -1,0 +1,46 @@
+{
+    "__class__": "Manejador",
+    "aparatos": [
+        {
+            "__class__": "Televisor",
+            "__atributos__": {
+                "marca": "Samsung",
+                "modelo": "Smart",
+                "color": "Negro",
+                "pais": "Corea",
+                "precio": 70000.0,
+                "pantalla": "LED",
+                "pulgadas": 43,
+                "definicion": "4K",
+                "internet": true
+            }
+        },
+        {
+            "__class__": "Lavarropa",
+            "__atributos__": {
+                "marca": "Drean",
+                "modelo": "6.06 ECO",
+                "color": "Blanco",
+                "pais": "Argentina",
+                "precio": 63000.0,
+                "capacidadLavado": 6,
+                "velocidad": 600,
+                "programas": 29,
+                "tipoCarga": "Superior"
+            }
+        },
+        {
+            "__class__": "Heladera",
+            "__atributos__": {
+                "marca": "Patrick",
+                "modelo": "HPK",
+                "color": "Negro",
+                "pais": "Francia",
+                "precio": 100000.0,
+                "capacidadLitros": 388.0,
+                "freezer": true,
+                "ciclica": false
+            }
+        }
+    ]
+}
